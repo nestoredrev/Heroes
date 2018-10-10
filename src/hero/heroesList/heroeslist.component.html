@@ -1,3 +1,4 @@
+<heroDetails [hero]="heroSelected"></heroDetails>
 <h2> Heroes List</h2>
 <ul class="heroes">
     <li *ngFor="let hero of heroes" (click)="heroListSelected(hero)" [class.selected]="hero === heroSelected">

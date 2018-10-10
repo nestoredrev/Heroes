@@ -11,10 +11,10 @@ import {HeroService} from '../../services/hero.service';
 
 export class HeroesList implements OnInit{
 	
-	heroes:Hero[];
-	heroSelected:Hero;
+	public heroes:Hero[];
+	public heroSelected:Hero;
 
-	constructor(private heroService:HeroService){
+	constructor(public heroService:HeroService){
 
 	}
 
